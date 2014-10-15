@@ -1,0 +1,19 @@
+{
+	"name": "panlatent/paboost",
+	"description": "The PHP functions and algorithms boost libray",
+	"homepage": "https://github.com/panlatent/paboost",
+	"keywords": ["libray", "boost"],
+	"licence": "MIT",
+	"type": "libray",
+	"require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.2"
+    },
+	"autoload": {
+		"psr-4": {
+			"paboost\\": "src"
+		}
+	}
+}
