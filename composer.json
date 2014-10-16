@@ -3,7 +3,7 @@
 	"description": "The PHP functions and algorithms boost libray",
 	"homepage": "https://github.com/panlatent/paboost",
 	"keywords": ["libray", "boost"],
-	"licence": "MIT",
+	"license": "MIT",
 	"type": "libray",
 	"require": {
         "php": ">=5.4.0"
