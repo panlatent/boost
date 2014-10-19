@@ -4,7 +4,7 @@ namespace Test {
 
 	use paboost\Str;
 
-	class StrTest extends \PHPUnit_Framework_Testcase {
+	class StrTest extends \PHPUnit_Framework_TestCase {
 
 		public function testConvertCamel()
 		{
