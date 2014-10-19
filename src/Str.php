@@ -24,17 +24,13 @@ namespace paboost {
 		 *
 		 * @param string $str
 		 * @param string $delimiter
-		 * @param bool   $each
 		 * @return string
 		 */
-		public static function convertSnake($str, $delimiter = '_', $each = true)
+		public static function convertSnake($str, $delimiter = '_')
 		{
 			if (ctype_lower($str)) return $str;
 
-			$replace = $each ? '$1' . $delimiter : '$1' . $delimiter . '$2';
-			$pattern = $each ? '/(.)(?=[A-Z])/' : '/(.)([A-Z]+)/';
-
-			return strtolower(preg_replace($pattern, $replace, $str));
+			return strtolower(preg_replace('/(.)(?=[A-Z])/', '$1' . $delimiter, $str));
 		}
 
 	}
