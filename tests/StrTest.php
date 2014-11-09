@@ -19,4 +19,11 @@ class StrTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals('boost-p-h-p-libray', Str::convertSnake('BoostPHPLibray', '-'));
 	}
 
+	public function testRandom()
+	{
+		$this->assertTrue(1 === preg_match('/^[0-9a-zA-Z]{6}$/', Str::random()));
+		$this->assertTrue(1 === preg_match('/^[0-9a-zA-Z]{4}$/', Str::random(4)));
+		$this->assertTrue(1 === preg_match('/^[0-9]{6}$/', Str::random(6, '0123456789')));
+	}
+
 }

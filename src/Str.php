@@ -33,6 +33,18 @@ namespace paboost {
 			return strtolower(preg_replace('/(.)(?=[A-Z])/', '$1' . $delimiter, $str));
 		}
 
+		/**
+		 * Make a random string.
+		 *
+		 * @param int   $length
+		 * @param array $paramname
+		 * @return string
+		 */
+		public static function random($length = 6, $pool = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
+		{
+			return substr(str_shuffle(str_repeat($pool, 5)), 0, $length);
+		}
+
 	}
-	
+
 }
