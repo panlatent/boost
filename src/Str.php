@@ -1,11 +1,11 @@
 <?php
 
-namespace paboost {
+namespace Boost {
 
 	class Str {
 
 		/**
-		 * Convert a string to camle case.
+		 * Convert a string to camel case.
 		 *
 		 * @param string $str
 		 * @param array  $separators
@@ -36,8 +36,8 @@ namespace paboost {
 		/**
 		 * Make a random string.
 		 *
-		 * @param int   $length
-		 * @param array $paramname
+		 * @param int    $length
+		 * @param string $pool
 		 * @return string
 		 */
 		public static function random($length = 6, $pool = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')

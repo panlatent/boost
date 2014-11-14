@@ -1,7 +1,7 @@
 {
-	"name": "panlatent/paboost",
+	"name": "panlatent/boost",
 	"description": "The PHP functions and algorithms boost library",
-	"homepage": "https://github.com/panlatent/paboost",
+	"homepage": "https://github.com/panlatent/boost",
 	"keywords": ["library", "boost"],
 	"license": "MIT",
 	"type": "library",
@@ -13,7 +13,7 @@
     },
 	"autoload": {
 		"psr-4": {
-			"paboost\\": "src"
+			"Boost\\": "src"
 		}
 	}
 }
