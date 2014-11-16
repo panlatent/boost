@@ -1,6 +1,6 @@
 Paboost
 =======
-[![Build Status](https://travis-ci.org/panlatent/paboost.svg)](https://travis-ci.org/panlatent/paboost)
+[![Build Status](https://travis-ci.org/panlatent/boost.svg)](https://travis-ci.org/panlatent/boost)
 
 The PHP functions and algorithms boost libray
 
