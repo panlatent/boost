@@ -9,12 +9,21 @@ It wants to be like the C++ Boost Library to help people programming and provie 
 
 ## Functions
 
-+ Array
++ Array and Object
 
- functions: Boost\Arr
+  Class: Boost\ArrObj
+  Method:
+
+    + Boost\ArrObj::value()
+    + Boost\ArrObj::valueByDot()
 
 + String
 
- functions: Boost\Str
+  Class: Boost\Str
+  Method:
+
+    + Boost\Str::convertCamel()
+    + Boost\Str::convertSnake()
+    + Boost\Str::random()
 
 ## Algorithms(Null)
