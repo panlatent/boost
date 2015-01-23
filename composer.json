@@ -1,6 +1,6 @@
 {
 	"name": "panlatent/boost",
-	"description": "The PHP functions and algorithms boost library",
+	"description": "The PHP functions, data structure and algorithms boost library",
 	"homepage": "https://github.com/panlatent/boost",
 	"keywords": ["library", "boost"],
 	"license": "MIT",
