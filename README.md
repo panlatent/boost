@@ -9,14 +9,6 @@ It wants to be like the C++ Boost Library to help people programming and provie 
 
 ## Functions
 
-+ Array and Object
-
-  Class: Boost\ArrObj
-  Method:
-
-    + Boost\ArrObj::value()
-    + Boost\ArrObj::valueByDot()
-
 + String
 
   Class: Boost\Str
