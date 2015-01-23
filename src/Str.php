@@ -4,6 +4,8 @@ namespace Boost {
 
 	class Str {
 
+		const RANDOM_POOL = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
 		/**
 		 * Convert a string to camel case.
 		 *
@@ -40,7 +42,7 @@ namespace Boost {
 		 * @param string $pool
 		 * @return string
 		 */
-		public static function random($length = 6, $pool = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
+		public static function random($length = 6, $pool = self::RANDOM_POOL)
 		{
 			return substr(str_shuffle(str_repeat($pool, 5)), 0, $length);
 		}
