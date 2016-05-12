@@ -19,4 +19,4 @@ The PHP functions, data structure and algorithms seven-boost library.
 
 ## License
 
-The Boost is open-sourced software licensed under the MIT license.
+The Seven/Boost is open-sourced software licensed under the MIT license.
