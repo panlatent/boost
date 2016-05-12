@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false"
          syntaxCheck="true">
-    <testsuite name="boost Test Suite">
+    <testsuite name="Seven Boost Test Suite">
         <directory>./tests/</directory>
     </testsuite>
 </phpunit>
