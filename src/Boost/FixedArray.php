@@ -1,7 +1,8 @@
 <?php
 
-namespace Seven\Boost;
+namespace Boost;
 
-class FixedArray extends \SplFixedArray {
+class FixedArray extends \SplFixedArray
+{
 
 }

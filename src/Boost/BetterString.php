@@ -1,8 +1,9 @@
 <?php
 
-namespace Seven\Boost;
+namespace Boost;
 
-class BetterString {
+class BetterString extends BaseString
+{
 
 	const RANDOM_POOL = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 

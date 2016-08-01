@@ -2,7 +2,7 @@
 
 namespace Test;
 
-use Seven\Boost\BetterString;
+use Boost\BetterString;
 
 class BetteStringTest extends \PHPUnit_Framework_TestCase {
 

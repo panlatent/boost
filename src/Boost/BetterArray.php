@@ -1,7 +1,8 @@
 <?php
 
-namespace Seven\Boost;
+namespace Boost;
 
-class BetterArray {
+class BetterArray extends BaseArray
+{
 
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Seven\Boost;
+namespace Boost;
 
 interface ContainerInterface {
 

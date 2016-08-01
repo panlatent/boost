@@ -1,8 +1,9 @@
 <?php
 
-namespace Seven\Boost;
+namespace Boost;
 
-class Container implements ContainerInterface, \ArrayAccess, \Countable, \Iterator {
+class Container implements ContainerInterface, \ArrayAccess, \Countable, \Iterator
+{
 
     protected $_storage;
 
