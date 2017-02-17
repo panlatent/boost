@@ -6,7 +6,7 @@ Boost
 [![Latest Unstable Version](https://poser.pugx.org/panlatent/boost/v/unstable.svg)](https://packagist.org/packages/panlatent/boost) 
 [![License](https://poser.pugx.org/panlatent/boost/license.svg)](https://packagist.org/packages/panlatent/boost)
 
-The PHP functions, data structure and algorithms boost library.
+A PHP data structures and algorithms enhancement library.
 
 ## Documents
 

@@ -9,7 +9,7 @@
 
 namespace Panlatent\Boost;
 
-class Exception extends \Exception
+abstract class BHeap extends \SplHeap
 {
 
 }

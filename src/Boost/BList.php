@@ -9,7 +9,7 @@
 
 namespace Panlatent\Boost;
 
-class Exception extends \Exception
+class BList extends \SplDoublyLinkedList
 {
 
 }

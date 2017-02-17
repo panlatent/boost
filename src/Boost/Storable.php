@@ -9,7 +9,10 @@
 
 namespace Panlatent\Boost;
 
-class Exception extends \Exception
-{
-
+interface Storable {
+    public function get($name);
+    public function has($name);
+    public function destroy($name);
+    public function set($name, $value);
+    public function clear();
 }

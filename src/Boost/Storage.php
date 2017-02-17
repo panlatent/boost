@@ -1,45 +1,51 @@
 <?php
+/**
+ * Boost - A PHP data structures and algorithms enhancement library
+ *
+ * @author  panlatent@gmail.com
+ * @link    https://github.com/panlatent/boost
+ * @license https://opensource.org/licenses/MIT
+ */
 
-namespace Boost;
+namespace Panlatent\Boost;
 
-class Container implements ContainerInterface, \ArrayAccess, \Countable, \Iterator
+class Storage implements Storable, \ArrayAccess, \Countable, \Iterator
 {
-
-    protected $_storage;
+    protected $storage;
 
     public function __construct($storage = array())
     {
-        $this->_storage = $storage;
+        $this->storage = $storage;
     }
 
     public function clear()
     {
-        $this->_storage = array();
+        $this->storage = array();
     }
 
     public function get($name)
     {
-        return $this->_storage[$name];
+        return $this->storage[$name];
     }
 
     public function has($name)
     {
-        return isset($this->_storage[$name]);
+        return isset($this->storage[$name]);
     }
 
     public function set($name, $value)
     {
-        $this->_storage[$name] = $value;
+        $this->storage[$name] = $value;
     }
 
     public function destroy($name)
     {
-        unset($this->_storage[$name]);
+        unset($this->storage[$name]);
     }
 
     public function count()
     {
-        return count($this->_storage);
+        return count($this->storage);
     }
 
     public function offsetExists($name)
@@ -64,27 +70,26 @@ class Container implements ContainerInterface, \ArrayAccess, \Countable, \Iterat
 
     public function current()
     {
-        return current($this->_storage);
+        return current($this->storage);
     }
 
     public function next()
     {
-        return next($this->_storage);
+        return next($this->storage);
     }
 
     public function key()
     {
-        return key($this->_storage);
+        return key($this->storage);
     }
 
     public function valid()
     {
-        return key($this->_storage) !== null;
+        return key($this->storage) !== null;
     }
 
     public function rewind()
     {
-        return reset($this->_storage);
+        return reset($this->storage);
     }
-
 }
