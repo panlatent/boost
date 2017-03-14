@@ -1,7 +1,5 @@
 <?php
 
-namespace Test;
-
 use Panlatent\Boost\BString;
 
 class BetteStringTest extends \PHPUnit_Framework_TestCase {
