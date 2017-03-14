@@ -9,9 +9,7 @@
 
 namespace Panlatent\Boost;
 
-interface Storable extends ReadOnlyStorable
+class ReadOnlyException extends Exception
 {
-    public function destroy($name);
-    public function set($name, $value);
-    public function clear();
+
 }

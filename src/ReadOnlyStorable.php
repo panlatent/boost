@@ -9,9 +9,9 @@
 
 namespace Panlatent\Boost;
 
-interface Storable extends ReadOnlyStorable
+
+interface ReadOnlyStorable
 {
-    public function destroy($name);
-    public function set($name, $value);
-    public function clear();
+    public function get($name);
+    public function has($name);
 }
